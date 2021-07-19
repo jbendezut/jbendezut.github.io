@@ -17,7 +17,7 @@
         <nav>
             <section class="contenedor-fluid nav">
                 <div class="logo">
-                   <a href="index.php"> <img src="image/logoweb.svg"  alt="" srcset=""></a>
+                   <a href="index.php"> <img src="./image/logoweb.svg"  alt="" srcset=""></a>
                 </div>
                 <div class="enlaces-header">
                     <a href="index.php">Inicio</a>
@@ -34,19 +34,14 @@
     </header>
    <div class="contenedor">
        <section class="contenido-header">
-            <div class="textos-header">
-                <h1>Diseño y Desarrollo de páginas web</h1>
-                <p>Plataformas profesionales desarrolladas con distintas tecnologías.</p>
-                <a href="contacto.php">Inicia tu Proyecto</a>
-            </div>
+           <div class="textos-header">
+               <h1>Desarrolla tu negocio en linea</h1>
+               <p>Plataforma para crear y desarrollar tu canal de ventas online para particulares y profesionales.</p>
+               <a href="contacto.php">Inicia tu Proyecto</a>
+           </div>
+           <img src="./image/web.svg" alt="" srcset="">
        </section>
    </div>
-    <div>
-        <div class="centro">
-            <h1 style="text-align: center;">Portafolio</h1>
-            <h4>Proyectos Web desarrollados </h4>
-        </div>  
-    </div>    
    <section class="about-us">
        <div class="contenedor1">
            <h2 class="titulo">Servicios especializados en diseño web, diseño UI/UX y Branding</h2>
@@ -126,7 +121,7 @@
        </div>
    </section>
    <section class="contenedor1 services">
-       <img src="image/seo.jpg" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" alt="" srcset="">
+       <img src="./image/seo.jpg" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" alt="" srcset="">
        <div class="box-skills">
            <h4 data-aos="zoom-out-right"><i class="fas fa-check-circle"></i>Web Design</h4>
            <h4 data-aos="zoom-out-left"><i class="fas fa-check-circle"></i>Web Development</h4>
@@ -137,7 +132,7 @@
    </section>
    <footer>
         <div class="partFooter">
-           <a href="index.php"> <img src="image/logoweb.svg" alt="" srcset=""></a>
+           <a href="index.php"> <img src="../image/logoweb.svg" alt="" srcset=""></a>
         </div>
         <div class="partFooter">
             <h4>Servicios</h4>

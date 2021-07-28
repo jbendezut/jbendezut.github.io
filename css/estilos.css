@@ -15,10 +15,7 @@ h1, h2, h3, h4, h5, h6{
     height: 100%;
     margin: auto;
     overflow: hidden;
-    background-image: url('../image/fondo.png');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
 .contenedor1{
     width: 90%;
@@ -76,7 +73,7 @@ nav{
     font-family:  Helvetica;
 }
 .nav .enlaces-header a:hover{
-    color: #E10882;
+    color: #01C78F;
 }
 .hamburguer{
     width: 80px;
@@ -90,7 +87,7 @@ nav{
 .hamburguer > i{
     font-size: 30px;
     line-height: 80px;
-    color: #E10882;
+    color: #01C78F;
     
 }
 .contenido-header{
@@ -98,8 +95,11 @@ nav{
     height: 800px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;   
+    background-image: url('/img/fondo.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .centro{
@@ -205,7 +205,7 @@ nav{
 .articulo>i{
     font-size: 40px;
     color: white;
-    background: #E10882;
+    background: #01C78F;
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -234,7 +234,7 @@ nav{
     border:  1px solid #ffffff;
     padding:10px 40px;
     border-radius: 5px;
-    background-color: #e6067a;
+    background-color: #01C78F;
 }
 
 .articulo>a:hover{
@@ -457,9 +457,9 @@ nav{
     margin-top: 28px 0 0 0;
     width: 150px;
     display: inline-block;
-    background: #a70458;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #cf046d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fa0505, #af055d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #01C78F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #01C78F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #01C78F, #0549af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     text-align: center;
     color: white;
@@ -497,7 +497,7 @@ nav{
     text-align: center;
 }
 .numbers .number>h4{
-    color: #ff0485;
+    color: #01C78F;
     font-size: 35px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -528,9 +528,9 @@ nav{
     color: white;
     text-decoration: none;
     display: inline-block;
-    background: #a70458;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #33001b, #cf046d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fa0505, #af055d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #01C78F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #01C78F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #04678f, #01C78F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     border-radius: 5px;
     padding: 10px 0;
@@ -561,7 +561,7 @@ nav{
     margin-bottom: 10px;
 }
 .box-skills i{
-color: #fd0378;
+color: #01C78F;
 font-size: 30px;
 padding-right: 10px;
 }
@@ -581,7 +581,7 @@ footer{
 
 }
 .partFooter h4{
-    color: #cc0763;
+    color: #01C78F;
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -595,7 +595,7 @@ footer{
     margin-bottom: 10px;
 }
 .partFooter a:hover{
-    color: #df0672;
+    color: #01C78F;
 }
 .partFooter img{
     width: 70%;
@@ -603,8 +603,8 @@ footer{
 .social-media a {
     font-size: 20px;
     display: inline-block;
-    color:rgb(211, 4, 100);
-    border: 1px solid rgb(211, 4, 100);
+    color:#01C78F;
+    border: 1px solid #01C78F;
     border-radius: 50%;
     width: 38px;
     height: 38px;
